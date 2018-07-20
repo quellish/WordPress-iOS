@@ -21,6 +21,8 @@ extension NotificationsViewController {
                 self?.setupWinback()
             case .authorized:
                 break
+            default:
+                break
             }
         }
     }
